@@ -1,0 +1,82 @@
+body{
+    background-image: url(../img/Group\ 9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.conteudo{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.conteudo .texto{
+    max-width: 30rem;
+    color: #ffffff;
+}
+
+.conteudo .texto .pergunta{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1.1rem;
+}
+.conteudo .texto .resposta{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.conteudo .formulario{
+    display: flex;
+    flex-direction: column;
+    width: 34rem;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+.conteudo .formulario .input{
+    border: solid 1px;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow:  0 3px 10px 0 #ccc;
+}
+.conteudo .formulario .campo-obrigatorio{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 1rem;
+}
+.conteudo .formulario .submit{
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #3CCC87;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+.conteudo .formulario .text-area{
+    padding-bottom: 10rem;
+}
+
+.formulario .input.nao-preenchido {
+    border: solid 1px #F52E2E;
+    margin-bottom: 0;
+    
+}
+.formulario .error {
+    margin: 0 0 0 1rem;
+    display: none;
+}
+.formulario .error.mostrar{
+    display: block;
+    color: #F52E2E;
+}
+
+.formulario .input.preenchido {
+    border: solid 1px #00C22B;
+}

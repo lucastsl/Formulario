@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3 - FORMULÁIO</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="conteudo">
+
+        <Section class="texto">
+            <h1 class="pergunta">FICOU COM DÚVIDA?              NOS MANDE UMA MENSAGEM!</h1>
+            <p class="resposta">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </Section>
+
+        <form action="index.html" method="get" class="formulario ">
+            <input class="input" type="text" id="Nome" placeholder="Nome Completo *">
+            <label class="error " for="Nome">campo obrigatorio</label>
+
+            <input class="input" type="email" id="email" placeholder="Email *">
+            <label class="error" for="email">campo obrigatorio</label>
+
+            <input class="input" type="text" id="telefone" placeholder="Telefone *">
+            <label class="error"  for="telefone">campo obrigatorio</label>
+
+            <input type="text" class=" input text-area" id="textarea" placeholder="Mensagem">
+            <label  class="error" for="textarea">campo obrigatorio</label>
+
+            <label for="submit" class="campo-obrigatorio">*campos obrigatórios</label>
+            <input  class="submit" type="button" id="submit" value="Enviar">
+        </form>
+
+    </main>
+
+    <script src="./src/js/formulario.js"></script>
+</body>
+</html>
